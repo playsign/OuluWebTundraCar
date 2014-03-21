@@ -1,0 +1,1695 @@
+{
+    "objects" :
+    {
+        "CollisionCube.016" : {
+            "geometry"  : "geo_Cube.019",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ -118.718, 7.72188, -38.0708 ],
+            "rotation"  : [ -1.5708, 4.86085e-08, -0.584961 ],
+            "quaternion": [ -0.677077, -0.203879, -0.203879, 0.677077 ],
+            "scale"     : [ 15.4414, 18.9014, 22.8391 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.010" : {
+            "geometry"  : "geo_Cube.018",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ -83.0058, 7.72189, -9.49072 ],
+            "rotation"  : [ -1.5708, 2.843e-08, -0.584961 ],
+            "quaternion": [ -0.677077, -0.203879, -0.203879, 0.677077 ],
+            "scale"     : [ 29.8691, 18.9014, 22.8391 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.009" : {
+            "geometry"  : "geo_Cube.017",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ -71.8372, 7.72188, -56.3829 ],
+            "rotation"  : [ -1.5708, 6.81045e-09, -0.568359 ],
+            "quaternion": [ -0.678746, -0.198252, -0.198252, 0.678746 ],
+            "scale"     : [ 42.3721, 23.0625, 80.3623 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.008" : {
+            "geometry"  : "geo_Cube.016",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 3.37551, 7.72176, 33.6337 ],
+            "rotation"  : [ -1.5708, -1.60527e-08, -0.584961 ],
+            "quaternion": [ -0.677077, -0.203879, -0.203879, 0.677077 ],
+            "scale"     : [ 44.1484, 31.7891, 56.7607 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.015" : {
+            "geometry"  : "geo_Cube.015",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ -22.1006, 7.72152, 88.133 ],
+            "rotation"  : [ -1.5708, -3.69869e-08, -0.569663 ],
+            "quaternion": [ -0.678617, -0.198694, -0.198694, 0.678617 ],
+            "scale"     : [ 38.4102, 16.5234, 22.8391 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.014" : {
+            "geometry"  : "geo_Cube.014",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ -145.636, 7.9799, 66.8122 ],
+            "rotation"  : [ -1.5708, -6.05354e-08, -0.584961 ],
+            "quaternion": [ -0.677077, -0.203879, -0.203879, 0.677077 ],
+            "scale"     : [ 45.2852, 32.9268, 23.0062 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.013" : {
+            "geometry"  : "geo_Cube.013",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 19.8762, 7.90552, 205.026 ],
+            "rotation"  : [ -1.5708, 3.46183e-09, -0.569663 ],
+            "quaternion": [ -0.678617, -0.198694, -0.198694, 0.678617 ],
+            "scale"     : [ 48.1855, 9.0332, 23.0062 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.012" : {
+            "geometry"  : "geo_Cube.012",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 138.932, 27.6356, 20.1342 ],
+            "rotation"  : [ -1.5708, 2.36862e-08, -0.569663 ],
+            "quaternion": [ -0.678617, -0.198694, -0.198694, 0.678617 ],
+            "scale"     : [ 47.6543, 13.2979, 20.7309 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionGrid" : {
+            "geometry"  : "geo_Grid.002",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 7.09542, 0.134915, 32.5192 ],
+            "rotation"  : [ -1.58049, -0.00324143, 0.998038 ],
+            "quaternion": [ -0.624425, 0.339031, 0.337762, 0.617307 ],
+                        "scale"     : [ 1, 1, 1 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.011" : {
+            "geometry"  : "geo_Cube.011",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 58.5769, 28.6866, -99.9496 ],
+            "rotation"  : [ -1.5708, 2.843e-08, -0.584961 ],
+            "quaternion": [ -0.677077, -0.203879, -0.203879, 0.677077 ],
+            "scale"     : [ 6.1001, 15.6917, 23.3838 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.007" : {
+            "geometry"  : "geo_Cube.007",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ -94.3742, 16.5293, 114.985 ],
+            "rotation"  : [ -1.5708, 2.7148e-08, -0.569663 ],
+            "quaternion": [ -0.678617, -0.198694, -0.198694, 0.678617 ],
+            "scale"     : [ 10.7148, 22.6943, 31.3176 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.006" : {
+            "geometry"  : "geo_Cube.006",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ -51.4856, 7.72153, 131.74 ],
+            "rotation"  : [ -1.5708, -2.02244e-08, -0.569663 ],
+            "quaternion": [ -0.678617, -0.198694, -0.198694, 0.678617 ],
+            "scale"     : [ 34.7461, 32.4639, 50.2051 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.005" : {
+            "geometry"  : "geo_Cube.005",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ -119.697, 7.98336, 23.6419 ],
+            "rotation"  : [ -1.5708, -6.05354e-08, -0.584961 ],
+            "quaternion": [ -0.677077, -0.203879, -0.203879, 0.677077 ],
+            "scale"     : [ 47.3008, 16.3887, 48.7666 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.004" : {
+            "geometry"  : "geo_Cube.004",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 45.1508, 7.90551, 161.514 ],
+            "rotation"  : [ -1.5708, 4.73724e-08, -0.569663 ],
+            "quaternion": [ -0.678617, -0.198694, -0.198694, 0.678617 ],
+            "scale"     : [ 45.2559, 41.916, 47.166 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.003" : {
+            "geometry"  : "geo_Cube.003",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 161.236, 16.916, -16.7905 ],
+            "rotation"  : [ -1.5708, 6.92366e-09, -0.569663 ],
+            "quaternion": [ -0.678617, -0.198694, -0.198694, 0.678617 ],
+            "scale"     : [ 45.0146, 28.9775, 20.7309 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.002" : {
+            "geometry"  : "geo_Cube.002",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 50.8927, 27.9339, -56.7294 ],
+            "rotation"  : [ -1.5708, 4.16816e-09, -0.585938 ],
+            "quaternion": [ -0.676978, -0.204209, -0.204209, 0.676977 ],
+            "scale"     : [ 8.09863, 15.7598, 27.0059 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube.001" : {
+            "geometry"  : "geo_Cube.000",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 82.7689, 19.9434, -48.3176 ],
+            "rotation"  : [ -1.5708, -1.6098e-08, -0.583984 ],
+            "quaternion": [ -0.677177, -0.203548, -0.203548, 0.677177 ],
+            "scale"     : [ 22.7529, 13.8418, 22.8203 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionCube" : {
+            "geometry"  : "geo_Cube.001",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 96.1638, 21.8213, -74.395 ],
+            "rotation"  : [ -1.5708, -4.04487e-08, -0.569663 ],
+            "quaternion": [ -0.678617, -0.198694, -0.198694, 0.678617 ],
+            "scale"     : [ 22.1133, 12.6025, 18.0806 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "CollisionPlane" : {
+            "geometry"  : "geo_Plane.002",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 6.90108, 8.93016, 29.5746 ],
+            "rotation"  : [ -1.57319, -0.00625787, -0.592358 ],
+            "quaternion": [ -0.676478, -0.208741, -0.204015, 0.676153 ],
+            "scale"     : [ 0.569929, 0.558043, 0.579583 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "pakkahuoneenkatu_12_signs" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_12" ],
+            "position"  : [ -98.7821, 5.9774, 78.646 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_12" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_12" ],
+            "position"  : [ -98.7821, 5.9774, 78.646 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_11" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_11" ],
+            "position"  : [ -68.2913, 7.0461, 22.5676 ],
+            "rotation"  : [ -1.5708, -2.88047e-09, 0.988433 ],
+            "quaternion": [ -0.622495, 0.335411, 0.335411, 0.622495 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_11_signs" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_11" ],
+            "position"  : [ -68.2913, 7.0461, 22.5676 ],
+            "rotation"  : [ -1.5708, -2.88047e-09, 0.988433 ],
+            "quaternion": [ -0.622495, 0.335411, 0.335411, 0.622495 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_13_signs" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_13" ],
+            "position"  : [ -42.7715, 11.1584, 40.7871 ],
+            "rotation"  : [ -1.5708, -3.61952e-09, 1.00413 ],
+            "quaternion": [ -0.619844, 0.340285, 0.340285, 0.619844 ],
+            "scale"     : [ 0.0665058, 0.0536583, 0.0665058 ]
+        },
+
+        "pakkahuoneenkatu_13" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_13" ],
+            "position"  : [ -49.8108, 7.07724, 34.8384 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_18_signs" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_18" ],
+            "position"  : [ 68.4745, 5.81864, 127.82 ],
+            "rotation"  : [ -1.5708, -1.58152e-08, 2.55152 ],
+            "quaternion": [ -0.205609, 0.676554, 0.676554, 0.205609 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_18" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_18" ],
+            "position"  : [ 68.4745, 5.81864, 127.82 ],
+            "rotation"  : [ -1.5708, -1.58152e-08, 2.55152 ],
+            "quaternion": [ -0.205609, 0.676554, 0.676554, 0.205609 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_14-16" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_14-16" ],
+            "position"  : [ 19.0079, 6.22025, 94.9 ],
+            "rotation"  : [ -1.5708, 3.89161e-09, 2.56203 ],
+            "quaternion": [ -0.202051, 0.677625, 0.677625, 0.202051 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_14-16_signs" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_14-16" ],
+            "position"  : [ 19.0079, 6.22025, 94.9 ],
+            "rotation"  : [ -1.5708, 3.89161e-09, 2.56203 ],
+            "quaternion": [ -0.202051, 0.677625, 0.677625, 0.202051 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_15_sign_boards" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_15" ],
+            "position"  : [ -11.5568, 10.0109, 61.327 ],
+            "rotation"  : [ 2.00738e-07, -0.569937, 1.29943e-07 ],
+            "quaternion": [ 7.8056e-08, -0.281127, 3.41348e-08, 0.959671 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_15_railing_1" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_15" ],
+            "position"  : [ -3.34653, 12.3049, 66.0843 ],
+            "rotation"  : [ -8.52326e-08, -0.473941, 1.93657e-09 ],
+            "quaternion": [ -4.16526e-08, -0.234759, 1.09458e-08, 0.972054 ],
+            "scale"     : [ 0.750048, 0.750047, 0.750048 ]
+        },
+
+        "pakkahuoneenkatu_15" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_15" ],
+            "position"  : [ 23.632, 6.18987, 83.7453 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_15_railing_2" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_15" ],
+            "position"  : [ 23.632, 6.18987, 83.7453 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_15_signs" : {
+            "groups"    : [ "merge_pakkahuoneenkatu_15" ],
+            "position"  : [ 23.632, 6.18987, 83.7453 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluStreetBridge.003" : {
+            "groups"    : [  ],
+            "position"  : [ 17.7272, 5.95456, -106.255 ],
+            "rotation"  : [ -1.5708, 1.11119e-07, -2.14679 ],
+            "quaternion": [ -0.337391, -0.621424, -0.621424, 0.33739 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OuluParkBridge.005" : {
+            "groups"    : [  ],
+            "position"  : [ -14.757, 5.47092, -156.02 ],
+            "rotation"  : [ -1.57049, 9.70304e-05, -2.15473 ],
+            "quaternion": [ -0.334902, -0.622646, -0.622869, 0.334944 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OuluParkBridge.004" : {
+            "groups"    : [  ],
+            "position"  : [ -12.304, 5.49296, -154.398 ],
+            "rotation"  : [ -1.5711, -9.70446e-05, 0.986904 ],
+            "quaternion": [ -0.622863, 0.334956, 0.334914, 0.622639 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "side_humps-3.001" : {
+            "groups"    : [ "merge_AdministrationParkBlockRiver" ],
+            "position"  : [ 28.3203, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "AdministrationParkBlockRiver" : {
+            "groups"    : [ "merge_AdministrationParkBlockRiver" ],
+            "position"  : [ 28.3203, 1.01931e-05, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "AdministrationParkBlock" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 3.47356e-09, -0.569933 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluStreetBridge" : {
+            "groups"    : [  ],
+            "position"  : [ 22.3314, 6.02183, -75.6361 ],
+            "rotation"  : [ -1.57097, 0.00146666, 0.991726 ],
+            "quaternion": [ -0.62175, 0.336921, 0.335949, 0.622133 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OuluParkBridge.003" : {
+            "groups"    : [  ],
+            "position"  : [ 32.0942, 5.66426, -23.575 ],
+            "rotation"  : [ -1.5711, 0.000110407, 0.329298 ],
+            "quaternion": [ -0.697643, 0.115955, 0.115843, 0.697445 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OuluParkBridge.002" : {
+            "groups"    : [  ],
+            "position"  : [ 30.9462, 5.71871, -27.0694 ],
+            "rotation"  : [ -1.57137, 0.00020726, -2.84922 ],
+            "quaternion": [ -0.103102, -0.699754, -0.699376, 0.102898 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "hallituskatu11" : {
+            "groups"    : [  ],
+            "position"  : [ 56.06, 6.69256, -49.3455 ],
+            "rotation"  : [ -1.5708, 8.4804e-09, -0.587598 ],
+            "quaternion": [ -0.676808, -0.204771, -0.204771, 0.676808 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Hallituskatu9" : {
+            "groups"    : [  ],
+            "position"  : [ 48.9514, 6.65502, -38.6488 ],
+            "rotation"  : [ -1.5708, -2.01765e-08, 2.55599 ],
+            "quaternion": [ -0.204098, 0.677011, 0.677011, 0.204098 ],
+            "scale"     : [ 0.871911, 0.871911, 0.871911 ]
+        },
+
+        "Asemakatu4" : {
+            "groups"    : [  ],
+            "position"  : [ 121.829, 7.24652, -73.1548 ],
+            "rotation"  : [ -1.5708, 3.55246e-09, 2.56984 ],
+            "quaternion": [ -0.199402, 0.678409, 0.678409, 0.199402 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SnelmannsBlockRiver" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3203, 1.01931e-05, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SnelmannsBlock" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3203, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "asemakatu2" : {
+            "groups"    : [  ],
+            "position"  : [ 55.0166, 6.7121, -83.5576 ],
+            "rotation"  : [ -1.5708, 3.41533e-08, 0.989656 ],
+            "quaternion": [ -0.62229, 0.335791, 0.335791, 0.62229 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "asemakatu_10" : {
+            "groups"    : [  ],
+            "position"  : [ 212.969, 8.01018, -14.3166 ],
+            "rotation"  : [ -1.5708, -4.39102e-08, 1.00086 ],
+            "quaternion": [ -0.620399, 0.339272, 0.339272, 0.620399 ],
+            "scale"     : [ 1.04099, 1.04099, 1.04099 ]
+        },
+
+        "asemakatu6" : {
+            "groups"    : [  ],
+            "position"  : [ 145.477, 8.51302, -40.4286 ],
+            "rotation"  : [ -1.5708, 6.06707e-08, 2.57166 ],
+            "quaternion": [ -0.198786, 0.67859, 0.67859, 0.198786 ],
+            "scale"     : [ 1.1629, 1.16291, 1.1629 ]
+        },
+
+        "Isokatu19" : {
+            "groups"    : [  ],
+            "position"  : [ 119.376, 6.89403, -10.5397 ],
+            "rotation"  : [ -1.5708, 2.68847e-08, -0.566523 ],
+            "quaternion": [ -0.678928, -0.197628, -0.197628, 0.678928 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "hallituskatu_13-17Fence" : {
+            "groups"    : [ "merge_hallituskatu_13-17" ],
+            "position"  : [ 99.0445, 5.97198, 2.35816 ],
+            "rotation"  : [ -1.5708, -3.64448e-08, -0.58064 ],
+            "quaternion": [ -0.677516, -0.202416, -0.202416, 0.677516 ],
+            "scale"     : [ 0.996809, 0.996809, 0.996809 ]
+        },
+
+        "hallituskatu_13-17" : {
+            "groups"    : [ "merge_hallituskatu_13-17" ],
+            "position"  : [ 93.343, 6.12549, 5.81124 ],
+            "rotation"  : [ -1.5708, 3.93829e-09, -0.580641 ],
+            "quaternion": [ -0.677516, -0.202416, -0.202416, 0.677516 ],
+            "scale"     : [ 0.996809, 0.996809, 0.996809 ]
+        },
+
+        "OuluBlock30" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3203, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_9b" : {
+            "groups"    : [  ],
+            "position"  : [ -97.4597, 5.994, -13.1533 ],
+            "rotation"  : [ -1.5708, 2.83663e-08, 2.55739 ],
+            "quaternion": [ -0.203621, 0.677155, 0.677155, 0.203621 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalconbacksides.003" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 17.1036, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalcon2.002" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 17.1036, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalconbacksides.002" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 13.9343, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalcon2.001" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 13.9343, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalconbacksides" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 10.9083, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalcon2.003" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 10.9083, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalcon2.004" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 7.8502, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalconbacksides.001" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 7.8502, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalconBackSides.003" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 18.4165, -13.697 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalcon.003" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 18.4165, -13.697 ],
+            "rotation"  : [ -1.5708, 8.21853e-09, -0.58458 ],
+            "quaternion": [ -0.677116, -0.20375, -0.20375, 0.677116 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalconBackSides.001" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 9.08748, -13.697 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalcon" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 9.08748, -13.697 ],
+            "rotation"  : [ -1.5708, 8.21853e-09, -0.58458 ],
+            "quaternion": [ -0.677116, -0.20375, -0.20375, 0.677116 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalconBackSides" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 12.0405, -13.697 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalcon.001" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 12.0405, -13.697 ],
+            "rotation"  : [ -1.5708, 8.21853e-09, -0.58458 ],
+            "quaternion": [ -0.677116, -0.20375, -0.20375, 0.677116 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalcon.002" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 15.1605, -13.697 ],
+            "rotation"  : [ -1.5708, 8.21853e-09, -0.58458 ],
+            "quaternion": [ -0.677116, -0.20375, -0.20375, 0.677116 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalconBackSides.002" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 15.1605, -13.697 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalconBacksides" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 4.38855, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalconBacksides.001" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 7.52154, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalconBacksides.002" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 10.7375, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalcon.002" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 10.7375, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalcon.001" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 7.52154, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalcon" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 4.38855, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Pakkahuoneenkatu9a" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 4.38855, -30.5956 ],
+            "rotation"  : [ -1.5708, 4.85778e-08, -0.58458 ],
+            "quaternion": [ -0.677116, -0.20375, -0.20375, 0.677116 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalconFront" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 9.08748, -13.697 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalcon.005" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 12.0405, -13.697 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalcon.006" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 15.1605, -13.697 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "FrontBalcon.007" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -117.795, 18.4165, -13.697 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalconBacksides.003" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 7.52154, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalconBacksides.004" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 10.7375, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalconBacksides.005" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 7.52154, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SideBalconBacksides.006" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -141.31, 4.38855, -30.5956 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalconbacksides.004" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 13.9343, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalconbacksides.005" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 10.9116, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalconbacksides.006" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 7.85317, -33.654 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BackBalconbacksides.007" : {
+            "groups"    : [ "merge_Pakkahuoneenkatu9a" ],
+            "position"  : [ -120.84, 17.1051, -33.6527 ],
+            "rotation"  : [ -1.5708, 3.43496e-08, 0.986217 ],
+            "quaternion": [ -0.622866, 0.33472, 0.33472, 0.622866 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Hallituskatu12" : {
+            "groups"    : [  ],
+            "position"  : [ -23.7336, 6.18464, -52.903 ],
+            "rotation"  : [ -1.5708, 3.48939e-09, 2.57129 ],
+            "quaternion": [ -0.19891, 0.678554, 0.678554, 0.19891 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Hallituskatu10" : {
+            "groups"    : [  ],
+            "position"  : [ -64.1909, 4.93524, -79.0768 ],
+            "rotation"  : [ -1.5708, 3.47354e-09, 2.57166 ],
+            "quaternion": [ -0.198786, 0.67859, 0.67859, 0.198786 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "YhdystorniBlock" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 3.47356e-09, -0.569933 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OuluBlock20" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Hallituskatu16" : {
+            "groups"    : [  ],
+            "position"  : [ 57.1724, 5.98821, 31.807 ],
+            "rotation"  : [ -1.5708, -3.6047e-08, 2.55291 ],
+            "quaternion": [ -0.205138, 0.676697, 0.676697, 0.205138 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "hallituskatu14" : {
+            "groups"    : [  ],
+            "position"  : [ 18.304, 6.92412, 5.45623 ],
+            "rotation"  : [ -1.5708, 4.21223e-09, 2.55464 ],
+            "quaternion": [ -0.204553, 0.676874, 0.676874, 0.204553 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_10" : {
+            "groups"    : [  ],
+            "position"  : [ -111.886, 5.52715, 13.3679 ],
+            "rotation"  : [ -1.5708, 3.0552e-08, -2.14557 ],
+            "quaternion": [ -0.337769, -0.621218, -0.621218, 0.337769 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Kauppurienkatu11" : {
+            "groups"    : [  ],
+            "position"  : [ -126.025, 7.94654, 120.764 ],
+            "rotation"  : [ -1.5708, 4.20109e-09, -0.586696 ],
+            "quaternion": [ -0.6769, -0.204466, -0.204466, 0.6769 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "kauppurienkatu9" : {
+            "groups"    : [  ],
+            "position"  : [ -201.28, 7.20852, 69.0794 ],
+            "rotation"  : [ -1.5708, -1.48588e-08, -0.610646 ],
+            "quaternion": [ -0.674403, -0.212557, -0.212557, 0.674403 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "PallasBlock" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 3.47356e-09, -0.569933 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "kaup-15" : {
+            "groups"    : [ "merge_Kauppurienkatu15" ],
+            "position"  : [ -76.965, 6.12859, 153.354 ],
+            "rotation"  : [ -1.5708, 2.64635e-08, -0.561503 ],
+            "quaternion": [ -0.679422, -0.195924, -0.195924, 0.679422 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Kauppurienkatu15" : {
+            "groups"    : [ "merge_Kauppurienkatu15" ],
+            "position"  : [ -75.5325, 6.12859, 154.255 ],
+            "rotation"  : [ -1.5708, 2.64635e-08, -0.561503 ],
+            "quaternion": [ -0.679422, -0.195924, -0.195924, 0.679422 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "kauppurienkatu_13" : {
+            "groups"    : [  ],
+            "position"  : [ -114.888, 7.33446, 128.265 ],
+            "rotation"  : [ -1.5708, -3.5905e-08, -0.59155 ],
+            "quaternion": [ -0.676402, -0.206108, -0.206108, 0.676402 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Kirkkokatu17" : {
+            "groups"    : [  ],
+            "position"  : [ -61.7848, 7.79349, 82.384 ],
+            "rotation"  : [ -1.5708, 3.01489e-08, -2.14171 ],
+            "quaternion": [ -0.338969, -0.620564, -0.620564, 0.338969 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Isokatu20-22" : {
+            "groups"    : [  ],
+            "position"  : [ -21.7093, 6.32751, 148.539 ],
+            "rotation"  : [ -1.5708, 3.30844e-08, 1.00835 ],
+            "quaternion": [ -0.619124, 0.341592, 0.341592, 0.619124 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "KauppuriBlock.001" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 3.47356e-09, -0.569933 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Kauppurienkatu17" : {
+            "groups"    : [  ],
+            "position"  : [ -12.6644, 6.29982, 194.053 ],
+            "rotation"  : [ -1.5708, 3.47356e-09, -0.569933 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Kauppurienkatu19" : {
+            "groups"    : [  ],
+            "position"  : [ 24.4946, 5.98803, 218.396 ],
+            "rotation"  : [ -1.5708, 8.38892e-09, -0.586544 ],
+            "quaternion": [ -0.676916, -0.204415, -0.204415, 0.676916 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "uusikatu_28" : {
+            "groups"    : [  ],
+            "position"  : [ 36.8379, 6.05591, 189.88 ],
+            "rotation"  : [ -1.5708, 3.47356e-09, -0.569933 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Isokatu23" : {
+            "groups"    : [  ],
+            "position"  : [ 11.7834, 5.82701, 129.883 ],
+            "rotation"  : [ -1.5708, 3.05127e-08, -2.1452 ],
+            "quaternion": [ -0.337886, -0.621155, -0.621154, 0.337886 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "pakkahuoneenkatu_22" : {
+            "groups"    : [  ],
+            "position"  : [ 104.908, 4.99653, 152.056 ],
+            "rotation"  : [ -1.5708, -5.26527e-09, 0.983171 ],
+            "quaternion": [ -0.623375, 0.333772, 0.333772, 0.623375 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "GalleriaBlockParking" : {
+            "groups"    : [ "merge_ GalleriaBlock" ],
+            "position"  : [ 28.3203, 0.0211117, 100.708 ],
+            "rotation"  : [ -1.5708, 2.71708e-08, -0.569935 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "GalleriaBlock" : {
+            "groups"    : [ "merge_ GalleriaBlock" ],
+            "position"  : [ 28.3204, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 2.71708e-08, -0.569935 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "KarhisParkBlockRiver" : {
+            "groups"    : [ "merge_KarhisParkBlockRiver" ],
+            "position"  : [ 28.3203, 1.01931e-05, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OttoKarhiParkGrass" : {
+            "groups"    : [ "merge_KarhisParkBlockRiver" ],
+            "position"  : [ 28.3203, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "KarhisParkBlock" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3203, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluStreetBridge.001" : {
+            "groups"    : [  ],
+            "position"  : [ 68.6884, 5.96428, 14.1134 ],
+            "rotation"  : [ -1.56915, -0.00502693, -2.15136 ],
+            "quaternion": [ -0.334129, -0.622523, -0.621859, 0.33781 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluStreetBridge.002" : {
+            "groups"    : [  ],
+            "position"  : [ 78.0093, 6.00154, 28.4469 ],
+            "rotation"  : [ -1.57372, 0.00487934, 0.991216 ],
+            "quaternion": [ -0.622117, 0.338283, 0.334263, 0.621936 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OuluParkBridge.001" : {
+            "groups"    : [  ],
+            "position"  : [ 107.129, 5.75791, 76.3911 ],
+            "rotation"  : [ -1.57048, -7.45495e-05, -2.69532 ],
+            "quaternion": [ -0.156424, -0.689475, -0.689678, 0.156525 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OuluParkBridge" : {
+            "groups"    : [  ],
+            "position"  : [ 108.84, 5.77995, 80.124 ],
+            "rotation"  : [ -1.57111, 7.32049e-05, 0.450234 ],
+            "quaternion": [ -0.689367, 0.157891, 0.157791, 0.689163 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.001" : {
+            "groups"    : [ "merge_ParkLampsWest" ],
+            "position"  : [ 76.5126, 5.42841, 38.968 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.018" : {
+            "groups"    : [ "merge_ParkLampsWest" ],
+            "position"  : [ 61.5915, 5.61156, 17.859 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.019" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 76.4859, 5.38211, -0.737962 ],
+            "rotation"  : [ -1.5708, 6.96399e-08, -2.1281 ],
+            "quaternion": [ -0.343183, -0.618244, -0.618244, 0.343183 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.004" : {
+            "groups"    : [ "merge_ParkLampsWest" ],
+            "position"  : [ 62.836, 5.6162, 62.2813 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.005" : {
+            "groups"    : [ "merge_ParkLampsWest" ],
+            "position"  : [ 61.8793, 5.6162, 80.4304 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.006" : {
+            "groups"    : [ "merge_ParkLampsWest" ],
+            "position"  : [ 59.8025, 5.6162, 70.2717 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.012" : {
+            "groups"    : [ "merge_ParkLampsWest" ],
+            "position"  : [ 53.531, 5.24778, 75.5703 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.013" : {
+            "groups"    : [ "merge_ParkLampsWest" ],
+            "position"  : [ 49.4421, 5.24778, 81.8668 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.020" : {
+            "groups"    : [ "merge_ParkLampsWest" ],
+            "position"  : [ 68.7781, 5.38212, 42.3988 ],
+            "rotation"  : [ -1.5708, 6.96399e-08, -2.1281 ],
+            "quaternion": [ -0.343183, -0.618244, -0.618244, 0.343183 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.001" : {
+            "groups"    : [ "merge_ParkLampsSouth" ],
+            "position"  : [ 36.665, 5.52478, 91.0196 ],
+            "rotation"  : [ -1.5708, -6.93132e-09, 1.00086 ],
+            "quaternion": [ -0.620399, 0.339272, 0.339271, 0.620399 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.002" : {
+            "groups"    : [ "merge_ParkLampsSouth" ],
+            "position"  : [ 49.1068, 5.52478, 99.7066 ],
+            "rotation"  : [ -1.5708, 3.47372e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.003" : {
+            "groups"    : [ "merge_ParkLampsSouth" ],
+            "position"  : [ 70.722, 5.4162, 114.535 ],
+            "rotation"  : [ -1.5708, 3.47372e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.004" : {
+            "groups"    : [ "merge_ParkLampsSouth" ],
+            "position"  : [ 86.346, 5.4162, 125.423 ],
+            "rotation"  : [ -1.5708, 3.47372e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.005" : {
+            "groups"    : [ "merge_ParkLampsSouth" ],
+            "position"  : [ 104.706, 5.4162, 137.709 ],
+            "rotation"  : [ -1.5708, 3.47372e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.006" : {
+            "groups"    : [ "merge_ParkLampsSouth" ],
+            "position"  : [ 119.405, 5.4162, 140.94 ],
+            "rotation"  : [ -1.5708, -6.93128e-09, -2.14073 ],
+            "quaternion": [ -0.339271, -0.620399, -0.620399, 0.339271 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.014" : {
+            "groups"    : [ "merge_ParkLampsSouth" ],
+            "position"  : [ 117.175, 5.24779, 131.601 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.012" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 164.531, 5.41619, 58.2754 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.013" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 172.202, 5.41619, 58.0085 ],
+            "rotation"  : [ -1.5708, 3.3513e-08, -2.14073 ],
+            "quaternion": [ -0.339272, -0.620399, -0.620399, 0.339272 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.014" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 95.8796, 5.41618, 11.8257 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.015" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 129.293, 5.41619, 34.3496 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.016" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 111.283, 5.41618, 22.2912 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.017" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 146.612, 5.41619, 46.0948 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.025" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 105.138, 5.24777, 40.855 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.026" : {
+            "groups"    : [ "merge_ParkLampsNorth" ],
+            "position"  : [ 96.712, 5.24777, 35.4552 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.002" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 93.2475, 4.98042, 76.3145 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.003" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 85.5915, 5.16004, 59.3363 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.007" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 73.4552, 5.6162, 87.4383 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.008" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 82.0522, 5.6162, 85.0622 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.009" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 98.2547, 5.6162, 86.0617 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.010" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 104.771, 4.84645, 82.1332 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.011" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 102.637, 4.81196, 77.2632 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.015" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 111.013, 5.24778, 116.695 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.016" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 104.414, 5.24778, 100.958 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.019" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 136.685, 5.24778, 73.3846 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.020" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 132.433, 5.24778, 67.4945 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.021" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 124.133, 5.24778, 69.1226 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.022" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 129.335, 5.24778, 61.8737 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.023" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 116.453, 5.24778, 70.3755 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.024" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 111.613, 5.24778, 57.5014 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.027" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 119.687, 5.24778, 77.529 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.028" : {
+            "groups"    : [ "merge_ParkLampsMid" ],
+            "position"  : [ 126.205, 5.24778, 92.4214 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.007" : {
+            "groups"    : [ "merge_ParkLampsEast" ],
+            "position"  : [ 124.951, 5.4162, 132.286 ],
+            "rotation"  : [ -1.5708, -6.93128e-09, -2.14073 ],
+            "quaternion": [ -0.339271, -0.620399, -0.620399, 0.339271 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.008" : {
+            "groups"    : [ "merge_ParkLampsEast" ],
+            "position"  : [ 136.793, 5.4162, 113.808 ],
+            "rotation"  : [ -1.5708, -6.93128e-09, -2.14073 ],
+            "quaternion": [ -0.339271, -0.620399, -0.620399, 0.339271 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.009" : {
+            "groups"    : [ "merge_ParkLampsEast" ],
+            "position"  : [ 155.979, 5.41619, 83.8707 ],
+            "rotation"  : [ -1.5708, -6.93128e-09, -2.14073 ],
+            "quaternion": [ -0.339271, -0.620399, -0.620399, 0.339271 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.010" : {
+            "groups"    : [ "merge_ParkLampsEast" ],
+            "position"  : [ 146.748, 5.41619, 98.2751 ],
+            "rotation"  : [ -1.5708, -6.93128e-09, -2.14073 ],
+            "quaternion": [ -0.339271, -0.620399, -0.620399, 0.339271 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp2.011" : {
+            "groups"    : [ "merge_ParkLampsEast" ],
+            "position"  : [ 148.92, 5.41619, 73.3078 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.017" : {
+            "groups"    : [ "merge_ParkLampsEast" ],
+            "position"  : [ 133.635, 5.24778, 109.097 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "ouluParkLamp1.018" : {
+            "groups"    : [ "merge_ParkLampsEast" ],
+            "position"  : [ 150.384, 5.24778, 82.2408 ],
+            "rotation"  : [ -1.5708, 1.56491e-08, -1.09354 ],
+            "quaternion": [ -0.604017, -0.367646, -0.367646, 0.604017 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BenchPark.007" : {
+            "groups"    : [  ],
+            "position"  : [ 56.1478, 5.97131, 83.556 ],
+            "rotation"  : [ -1.5708, -9.76962e-09, 1.03101 ],
+            "quaternion": [ -0.615215, 0.348584, 0.348584, 0.615215 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BenchPark.006" : {
+            "groups"    : [  ],
+            "position"  : [ 64.3325, 5.97131, 84.2164 ],
+            "rotation"  : [ -1.5708, -1.74549e-08, -0.554722 ],
+            "quaternion": [ -0.680082, -0.193619, -0.193619, 0.680082 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BenchPark.005" : {
+            "groups"    : [  ],
+            "position"  : [ 69.8193, 5.97131, 87.6176 ],
+            "rotation"  : [ -1.5708, -1.74549e-08, -0.554722 ],
+            "quaternion": [ -0.680082, -0.193619, -0.193619, 0.680082 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "BenchPark.004" : {
+            "groups"    : [  ],
+            "position"  : [ 73.6427, 5.97131, 95.9601 ],
+            "rotation"  : [ -1.5708, -8.3641e-09, -2.12552 ],
+            "quaternion": [ -0.343982, -0.6178, -0.6178, 0.343982 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "OttoKarhiPark" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 1.01931e-05, 100.708 ],
+            "rotation"  : [ -1.5708, 3.47356e-09, -0.569933 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "River" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 1.01931e-05, 100.708 ],
+            "rotation"  : [ -1.5708, 3.47356e-09, -0.569933 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "GalleriaBlock.001" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 1.01931e-05, 100.708 ],
+            "rotation"  : [ -1.5708, 2.71708e-08, -0.569935 ],
+            "quaternion": [ -0.67859, -0.198786, -0.198786, 0.67859 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "SnelmannsBlockRiver.001" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3203, 1.01931e-05, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "mitta" : {
+            "geometry"  : "geo_Plane",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 57.5148, 19.3426, 187.783 ],
+            "rotation"  : [ -1.5708, 0, 0 ],
+            "quaternion": [ -0.707107, 0, 0, 0.707107 ],
+            "scale"     : [ 1, 1, 1 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "rotateHelper" : {
+            "geometry"  : "geo_Untitled",
+            "groups"    : [  ],
+            "material"  : "",
+            "position"  : [ 41.0028, 4.88393e-06, -19.4462 ],
+            "rotation"  : [ -1.5708, -9.29495e-14, 2.05636e-06 ],
+            "quaternion": [ -0.707107, 7.27033e-07, 7.27033e-07, 0.707107 ],
+            "scale"     : [ 1, 1, 1 ],
+            "visible"       : true,
+            "castShadow"    : false,
+            "receiveShadow" : false,
+            "doubleSided"   : false
+        },
+
+        "SkyDome" : {
+            "groups"    : [  ],
+            "position"  : [ 4.30135, 1.63564, 30.7709 ],
+            "rotation"  : [ -1.5708, 0, 0 ],
+            "quaternion": [ -0.707107, 0, 0, 0.707107 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "water" : {
+            "groups"    : [  ],
+            "position"  : [ 28.3204, 0.0211112, 100.708 ],
+            "rotation"  : [ -1.5708, 6.94744e-09, -0.569937 ],
+            "quaternion": [ -0.67859, -0.198787, -0.198787, 0.678589 ],
+            "scale"     : [ 1, 1, 1 ]
+        },
+
+        "Kirkkokatu2" : {
+            "groups"    : [  ],
+            "position"  : [ -39.6025, 5.51318, -86.5206 ],
+            "rotation"  : [ -1.5708, -4.99654e-09, 0.980319 ],
+            "quaternion": [ -0.623851, 0.332882, 0.332882, 0.62385 ],
+            "scale"     : [ 1, 1, 1 ]
+        }
+    },
+
+
+    "geometries" :
+    {
+        "geo_Cube.019" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.019.js"
+        },
+
+        "geo_Cube.018" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.018.js"
+        },
+
+        "geo_Cube.017" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.017.js"
+        },
+
+        "geo_Cube.016" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.016.js"
+        },
+
+        "geo_Cube.015" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.015.js"
+        },
+
+        "geo_Cube.014" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.014.js"
+        },
+
+        "geo_Cube.013" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.013.js"
+        },
+
+        "geo_Cube.012" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.012.js"
+        },
+
+        "geo_Grid.002" : {
+            "type" : "ascii",
+            "url"  : "asdf.Grid.002.js"
+        },
+
+        "geo_Cube.011" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.011.js"
+        },
+
+        "geo_Cube.007" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.007.js"
+        },
+
+        "geo_Cube.006" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.006.js"
+        },
+
+        "geo_Cube.005" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.005.js"
+        },
+
+        "geo_Cube.004" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.004.js"
+        },
+
+        "geo_Cube.003" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.003.js"
+        },
+
+        "geo_Cube.002" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.002.js"
+        },
+
+        "geo_Cube.000" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.000.js"
+        },
+
+        "geo_Cube.001" : {
+            "type" : "ascii",
+            "url"  : "asdf.Cube.001.js"
+        },
+
+        "geo_Plane.002" : {
+            "type" : "ascii",
+            "url"  : "asdf.Plane.002.js"
+        },
+
+        "geo_Plane" : {
+            "type" : "ascii",
+            "url"  : "asdf.Plane.js"
+        },
+
+        "geo_Untitled" : {
+            "type" : "ascii",
+            "url"  : "asdf.Untitled.js"
+        }
+    }
+}

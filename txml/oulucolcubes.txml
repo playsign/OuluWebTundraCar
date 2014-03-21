@@ -1,0 +1,704 @@
+<!DOCTYPE Scene>
+<scene>
+ <entity id="1" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CarController" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="5" type="Script" sync="true">
+   <attribute value="carController.js" type="AssetReferenceList" id="scriptRef" name="Script ref"/>
+   <attribute value="true" type="bool" id="runOnLoad" name="Run on load"/>
+   <attribute value="0" type="int" id="runMode" name="Run mode"/>
+   <attribute value="" type="string" id="applicationName" name="Script application name"/>
+   <attribute value="" type="string" id="className" name="Script class name"/>
+  </component>
+  <component typeId="25" type="DynamicComponent" sync="true">
+   <attribute value="2" type="QVariantList" id="cars" name="cars"/>
+  </component>
+ </entity>
+ <entity id="3" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="-118.718002,7.721880,-38.070801,0.000000,-33.520000,0.000000,15.441400,22.839100,18.901400" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="4" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="-83.005798,7.721890,-9.490720,0.000000,-33.520000,0.000000,29.869101,22.839100,18.901400" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="5" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="-71.837196,7.721880,-56.382900,0.000000,-33.520000,0.000000,42.372101,80.362297,23.062500" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="6" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="3.375510,7.721760,33.633701,0.000000,-33.520000,0.000000,44.148399,56.760700,31.789101" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="7" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="-22.100599,7.721520,88.133003,0.000000,-32.639999,0.000000,38.410198,22.839100,16.523399" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="8" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="-145.636002,7.979900,66.812202,0.000000,-33.520000,0.000000,45.285198,23.006201,32.926800" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="9" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="19.876200,7.905520,205.026001,0.000000,-33.520000,0.000000,48.185501,23.006201,9.033200" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="10" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="138.932007,27.635599,20.134199,0.000000,-33.520000,0.000000,47.654301,20.730900,13.297900" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="11" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="7.095420,0.134915,32.519199,0.000000,-33.520000,0.000000,1.000000,1.000000,1.000000" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="12" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="58.576900,28.686600,-99.949600,0.000000,-33.520000,0.000000,6.100100,23.383801,15.691700" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="13" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="-94.374199,16.529301,114.985001,0.000000,-33.520000,0.000000,10.714800,31.317600,22.694300" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="14" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="-51.485600,7.721530,131.740005,0.000000,-33.520000,0.000000,34.746101,50.205101,32.463902" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="15" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="-119.696999,7.983360,23.641899,0.000000,-33.520000,0.000000,47.300800,48.766602,16.388700" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="16" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="45.150799,7.905510,161.514008,0.000000,-33.520000,0.000000,45.255901,47.166000,41.916000" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="17" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="161.235992,16.916000,-16.790501,0.000000,-33.520000,0.000000,45.014599,20.730900,28.977501" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="18" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="50.892700,27.933901,-56.729401,0.000000,-33.520000,0.000000,8.098630,27.005899,15.759800" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="19" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="82.768898,19.943399,-48.317600,0.000000,-33.520000,0.000000,22.752899,22.820299,13.841800" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="20" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="96.163803,21.821301,-74.394997,0.000000,-33.520000,0.000000,22.113300,18.080601,12.602500" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+ <entity id="21" sync="true">
+  <component typeId="26" type="Name" sync="true">
+   <attribute value="CollisionBox" type="string" id="name" name="Name"/>
+   <attribute value="" type="string" id="description" name="Description"/>
+   <attribute value="" type="string" id="group" name="Group"/>
+  </component>
+  <component typeId="20" type="Placeable" sync="true">
+   <attribute value="6.901080,8.930160,29.574600,0.000000,-33.520000,0.000000,0.569929,0.579583,0.558043" type="Transform" id="transform" name="Transform"/>
+   <attribute value="false" type="bool" id="drawDebug" name="Show bounding box"/>
+   <attribute value="true" type="bool" id="visible" name="Visible"/>
+   <attribute value="1" type="int" id="selectionLayer" name="Selection layer"/>
+   <attribute value="" type="EntityReference" id="parentRef" name="Parent entity ref"/>
+   <attribute value="" type="string" id="parentBone" name="Parent bone name"/>
+  </component>
+  <component typeId="23" type="RigidBody" sync="true">
+   <attribute value="0.000000" type="real" id="mass" name="Mass"/>
+   <attribute value="0" type="int" id="shapeType" name="Shape type"/>
+   <attribute value="2.000000 2.000000 2.000000" type="float3" id="size" name="Size"/>
+   <attribute value="" type="AssetReference" id="collisionMeshRef" name="Collision mesh ref"/>
+   <attribute value="0.500000" type="real" id="friction" name="Friction"/>
+   <attribute value="0.000000" type="real" id="restitution" name="Restitution"/>
+   <attribute value="0.000000" type="real" id="linearDamping" name="Linear damping"/>
+   <attribute value="0.000000" type="real" id="angularDamping" name="Angular damping"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearFactor" name="Linear factor"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularFactor" name="Angular factor"/>
+   <attribute value="true" type="bool" id="kinematic" name="Kinematic"/>
+   <attribute value="true" type="bool" id="phantom" name="Phantom"/>
+   <attribute value="true" type="bool" id="drawDebug" name="Draw Debug"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="linearVelocity" name="Linear velocity"/>
+   <attribute value="0.000000 0.000000 0.000000" type="float3" id="angularVelocity" name="Angular velocity"/>
+   <attribute value="2147483647" type="int" id="collisionLayer" name="Collision Layer"/>
+   <attribute value="2147483647" type="int" id="collisionMask" name="Collision Mask"/>
+   <attribute value="0.500000" type="real" id="rollingFriction" name="Rolling friction"/>
+   <attribute value="true" type="bool" id="useGravity" name="Use gravity"/>
+  </component>
+ </entity>
+</scene>
